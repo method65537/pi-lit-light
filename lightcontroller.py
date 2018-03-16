@@ -48,6 +48,10 @@ class LightController(object):
         GPIO.cleanup()
 
 # for demo
+#  python pi-lit-light/lightcontroller.py red
+#  python pi-lit-light/lightcontroller.py green
+#  python pi-lit-light/lightcontroller.py blue
+
 if __name__ == '__main__':
     if len(sys.argv) > 1:
         color = sys.argv[1]
